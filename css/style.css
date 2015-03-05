@@ -1,0 +1,97 @@
+/*!
+ * Project Name: 
+ * Client: Your Client
+ * Author: Your Name
+ * GA FEWD10, Washington, D.C.
+ */
+
+
+/*******************************************
+ * SETUP
+ *******************************************/
+
+/* Box Model Hack */
+
+
+
+/*******************************************
+ * BASE STYLES
+ *******************************************/
+
+body {
+    background: #e75b4c;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+/*******************************************
+ * LAYOUT
+ *******************************************/
+
+
+
+
+
+
+
+img {
+
+    padding: 0 2em;
+}
+
+
+
+nav {
+    display: inline-block;
+    float: right;
+    padding-right: 100px;
+}
+
+nav ul li {
+    display: inline;
+    padding-left: 20px; 
+    float: right;
+    font-size: 1em;
+}
+
+nav ul li a {
+    color: #fff;
+}
+
+.centerpiece {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2em;
+
+}
+
+.centerpiece h1 {
+
+    font-size: 4.75em;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.25em;
+    margin-bottom: 0px;
+}
+
+.centerpiece h2 {
+    font-size: 3.75em;
+    color: #f6c2bc;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.25em;
+    margin-top: 0px;
+}
+
+
+/*******************************************
+ * ADDITIONAL STYLES
+ *******************************************/
+
+
+
