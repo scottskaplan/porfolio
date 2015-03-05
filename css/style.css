@@ -64,6 +64,7 @@ nav ul li a {
     width: 100%;
     margin: 0 auto;
     padding: 0 2em;
+    text-align: center;
 
 }
 
@@ -77,6 +78,7 @@ nav ul li a {
     line-height: 1.25em;
     margin-bottom: 0px;
 }
+
 
 .centerpiece h2 {
     font-size: 3.75em;
