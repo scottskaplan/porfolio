@@ -7,95 +7,117 @@
 
 
 /*******************************************
- * SETUP
+ * RESET STYLES
  *******************************************/
 
-/* Box Model Hack */
+body {
+    height: 100%;
+    margin: 0;
+}
 
+
+/* Box Model Hack */
+* {
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+       -moz-box-sizing: border-box; /* Firexfox */
+            box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
 
 
 /*******************************************
  * BASE STYLES
  *******************************************/
 
-/*body {
-    background: #e75b4c;
-    font-family: 'Playfair Display', serif;
-}*/
 
-/*.hero {
-    background-color: #e75b4c;
-    font-family: 'Playfair Display', serif;
-}*/
-
-#fullpage {
-    background: #e75b4c;
-    font-family: 'Playfair Display', serif;
-    color: #fff;
-}
 
 /*******************************************
- * LAYOUT
+ * NAVIGATION
  *******************************************/
 
 
 img {
-
-    padding: 0 2em;
+    display: none;
 }
 
-
-
 nav {
+  background-color: transparent;
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  z-index: 1;
+}
+
+nav ul {
     display: inline-block;
-    float: right;
-    padding-right: 100px;
+    list-style: none;
+    width: 100%;
+    padding: 0 20px;
 }
 
 nav ul li {
-    display: inline;
-    padding-left: 20px; 
-    float: right;
-    font-size: 1em;
+    float: left;
+    width: 33%;
+    font-family: 'Muli', sans-serif;
 }
 
 nav ul li a {
+    list-style: none;
     color: #fff;
 }
-
-.centerpiece {
-    position: relative;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 2em;
-}
-
-.centerpiece h1 {
-
-    font-size: 4.75em;
-    color: #fff;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    line-height: 1.25em;
-    margin-bottom: 0px;
-}
-
-
-.centerpiece h2 {
-    font-size: 3.75em;
-    color: #f6c2bc;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    line-height: 1.25em;
-    margin-top: 0px;
-}
-
 
 /*******************************************
- * ADDITIONAL STYLES
+ * HERO
  *******************************************/
+
+.container {
+    font-family: 'Playfair Display', serif;
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 30px;
+    height: 100vh; 
+}
+
+
+ .hero {
+    background: #e75b4c;
+    color: #fff;
+    position: relative;
+
+ }
+
+.hero h1, h2 {
+    text-align: center;
+}
+
+.work {
+    background: #EBEBEB;
+    color: #fff;
+}
+
 
 
 
