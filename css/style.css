@@ -18,21 +18,25 @@
  * BASE STYLES
  *******************************************/
 
-body {
+/*body {
     background: #e75b4c;
     font-family: 'Playfair Display', serif;
+}*/
+
+/*.hero {
+    background-color: #e75b4c;
+    font-family: 'Playfair Display', serif;
+}*/
+
+#fullpage {
+    background: #e75b4c;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
 }
-
-
 
 /*******************************************
  * LAYOUT
  *******************************************/
-
-
-
-
-
 
 
 img {
@@ -64,8 +68,6 @@ nav ul li a {
     width: 100%;
     margin: 0 auto;
     padding: 0 2em;
-    text-align: center;
-
 }
 
 .centerpiece h1 {
