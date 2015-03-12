@@ -63,7 +63,7 @@ img {
 
 nav {
     font-family: 'Muli', sans-serif;
-    background-color: transparent;
+    background-color: green;
     display: block;
     position: fixed;
     width: 100%;
@@ -96,31 +96,49 @@ nav ul li a {
     font-family: 'Playfair Display', serif;
     display: block;
     position: relative;
-    margin: 0;
+/*    margin: 0;
     padding: 30px;
     height: 100vh; 
+    */
 }
-
 
  .hero {
     background: #e75b4c;
     color: #fff;
-    position: relative;
-
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; /*center*/
+    flex-direction: column;
  }
 
-.lander {
-    width: 50%;
-    margin: 0 auto;
+.hero h1 {
+  font-size: 3.5em;
 }
 
+.hero h2 {
+  font-size: 1.5em;
+}
+
+.down-arrow {
+  font-size: 3em;
+  color: #fff;
+  text-decoration: none;
+
+  position: absolute;
+  bottom: 20px;
+  left:50%;
+  margin-left: -18px;
+}
 
 /*******************************************
  * WORK
  *******************************************/
 
-.work {
-    background: #EBEBEB;
+
+
+ .work {
+    background: #ebebeb;
 }
 
 .flex-container {
