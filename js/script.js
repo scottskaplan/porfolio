@@ -11,3 +11,7 @@ $(document).ready(function() {
 	});
 });
 
+
+$(".flex-item").fancybox({
+
+      });
