@@ -111,7 +111,7 @@ padding-bottom: 6px;
     z-index: 99;
     width: 75px;
     height: 75px;
-    webkit-filter: invert(100%);
+    -webkit-filter: invert(100%);
     -o-filter: invert(100%);
     -moz-filter: invert(100%);
     -ms-filter: invert(100%);
