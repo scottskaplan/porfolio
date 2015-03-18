@@ -9,9 +9,6 @@ $(document).ready(function() {
 			scrollTop: $(dest).offset().top
 		}, 500);
 	});
+
+	$(".flex-item a").fancybox();
 });
-
-
-$(".flex-item").fancybox({
-
-      });

@@ -58,7 +58,7 @@ body {
  *******************************************/
 
 
-img {
+.logo {
     display: none;
 }
 
@@ -101,11 +101,11 @@ padding-bottom: 6px;
 
 @media only screen and (min-width: 480px) {
 
-  img {
+  .logo {
     display: block;
     position: fixed;
     background:transparent;
-    top: .5em;
+    /*top: .5em;*/
     left: 1em;
     width: 32px;
     z-index: 99;
@@ -135,7 +135,7 @@ padding-bottom: 6px;
 
 @media only screen and (min-width: 960px) {
 
-  img {
+  .logo {
     top: 1em;
     left: 2em;
   }
@@ -305,7 +305,7 @@ padding-bottom: 6px;
 }
 
 .flex-item {
-  background: #e75b4c;
+  background: #3A539B;
   padding: 5px;
   width: 200px;
   height: 150px;
